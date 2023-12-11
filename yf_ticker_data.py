@@ -12,7 +12,7 @@ def get_ticker_data(ticker_name, period_length):
 
     Parameters:
     ticker_name (str): The ticker symbol for which to fetch data.
-
+    period_length(str) : The length of data you want [EG - '10yr' will spit out daily data for last 10 yr] 
     Returns:
     DataFrame: The fetched ticker data.
     """
